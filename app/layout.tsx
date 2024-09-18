@@ -11,8 +11,8 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Andy Deng Portfolio",
-    template: "%s | Andy Deng Portfolio",
+    default: "Andy Deng",
+    template: "%s | Andy Deng",
   },
   description: "Andy Deng's Portfolio",
   openGraph: {
@@ -34,6 +34,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(" ");
@@ -52,6 +55,9 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="antialiased max-w-2xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
