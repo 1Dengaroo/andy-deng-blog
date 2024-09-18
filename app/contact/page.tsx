@@ -2,7 +2,7 @@ import Contact from "app/components/contact";
 
 export const metadata = {
   title: "Andy Deng's Contact Information",
-  description: "My contacts.",
+  description: "Andy Deng's email, linkedin, github, and resume.",
 };
 
 export default function Page() {

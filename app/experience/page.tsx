@@ -2,7 +2,8 @@ import { Experience } from "app/components/experience";
 
 export const metadata = {
   title: "Andy Deng's Experience",
-  description: "My experience.",
+  description:
+    "My experience working as a software engineer at Vanta, Evera, Boston College, and more.",
 };
 
 export default function Page() {
