@@ -52,7 +52,6 @@ export const experiences = [
     date: "Aug 2022 – May 2024",
     description: [
       "Aided students and faculty courteously and quickly to resolve varied technology issues, closing over 400 tickets",
-      "Coded software to replace legacy monitors for campus printers, now in use at all libraries across campus",
     ],
   },
 ];
