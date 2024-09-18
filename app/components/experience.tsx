@@ -25,11 +25,11 @@ export function Experience() {
     <div className="relative">
       {experiences.map((exp, index) => (
         <div key={index} className="flex mb-12">
-          <div className="relative z-10 mt-2 flex items-center justify-center w-3 h-3">
+          <div className="relative z-0 mt-2 flex items-center justify-center w-3 h-3 -ml-2.5">
             <ArrowIcon />
           </div>
 
-          <div className="-ml-2.5">
+          <div className="">
             <div className="flex flex-col space-y-1">
               <h3 className="text-lg font-semibold text-white">
                 {exp.company} — {exp.location}
