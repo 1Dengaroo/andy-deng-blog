@@ -1,12 +1,24 @@
 export const experiences = [
   {
+    company: "Abstruse",
+    location: "Remote",
+    role: "Software Engineer",
+    date: "Sep 2024 – Present",
+    description: [
+      "Collaborating on the development of a professional social networking platform using React, Tailwind, Node, Firebase, and AWS",
+      "Integrated search functionality using MeiliSearch for post discovery and implemented a recommendation system",
+    ],
+  },
+  {
     company: "Evera",
     location: "Remote",
     role: "Contract Software Engineer",
     date: "Jul 2024 – Present",
     description: [
-      "Migrating a Rails and React e-commerce platform to a Next.js, Medusa, and Node.js stack",
-      "Rebuilding core features such as product management, payments, and order processing using Medusa’s headless commerce framework",
+      "Independently built a responsive e-commerce platform using React and Rails, managing both frontend and backend development",
+      "Integrated Stripe, SendGrid, and UPS APIs for secure payments, automated emails, and shipping management",
+      "Ensured comprehensive testing of key features including payments, and order/product management",
+      "Set up and managed custom domains and DNS to improve branding and organization",
     ],
   },
   {
@@ -15,10 +27,10 @@ export const experiences = [
     role: "Software Engineer Intern",
     date: "Aug 2023 – Feb 2024",
     description: [
-      "Added 7,000+ lines of Ruby and TypeScript code, improving functionality for 20,000+ active users",
-      "Developed an efficient notification system that tracks thousands of daily messages using Redis",
-      "Collaborated with Ops and CX teams to introduce several quality of life bug fixes and features",
-      "Integrated APIs including Stripe, Cloudinary, and Twilio, achieving 95% test coverage with RSpec and Playwright",
+      "Contributed over 10,000 lines of Ruby and TypeScript code to an online esports platform",
+      "Built a real-time chat notification system using Redis, tracking thousands of daily messages and notifying users via emails",
+      "Implemented atomic transactions for payment processing, ensuring the secure completion of over 1,000 orders",
+      "Collaborated with Ops and Cx teams to introduce several quality of life bug fixes and features",
     ],
   },
   {
@@ -28,9 +40,8 @@ export const experiences = [
     date: "Jun 2023 – Aug 2023",
     description: [
       "Developed a visually appealing and responsive user interface for an e-commerce platform using React",
-      "Built a REST API in Rails to handle purchases and track user and clothing information",
-      "Implemented Stripe, SendGrid, and UPS APIs for secure payments, emails, and shipping management",
-      "Set up and managed custom domains and DNS to improve branding",
+      "Used Firebase to store and retrieve user, product, and order data",
+      "Implemented Stripe for payment processing",
     ],
   },
   {
@@ -43,6 +54,7 @@ export const experiences = [
       "Created a RESTful API in Django/Python to manage course applications for 800+ faculty and students",
       "Eliminated matching complaints completely and cut processing time from 3 weeks to 1 week",
       "Created a CI/CD pipeline with GitHub Actions with over 300 tests using Pytest",
+      "Wrote end-to-end and unit test suites with Playwright and RSpec, achieving 90% test coverage",
     ],
   },
   {
