@@ -1,5 +1,4 @@
 import React from "react";
-import "./animate.css";
 import { experiences } from "lib/get-experience";
 
 function ArrowIcon() {
@@ -25,18 +24,29 @@ export function Experience() {
     <div className="relative">
       {experiences.map((exp, index) => (
         <div key={index} className="flex mb-12">
-          <div className="hidden lg:block relative z-0 mt-2 flex items-center justify-center w-3 h-3 -ml-2.5">
-            <ArrowIcon />
-          </div>
-
           <div className="">
             <div className="flex flex-col space-y-1">
-              <h3 className="text-lg font-semibold">
-                {exp.company} — {exp.location}
+              <h3 className="font-bold">
+                <div className="flex justify-between">
+                  <a
+                    href={exp.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-500 hover:underline"
+                  >
+                    {exp.company}
+                  </a>
+                  <span className="text-sm font-normal text-neutral-500 dark:text-neutral-400">
+                    {exp.location}
+                  </span>
+                </div>
               </h3>
-              <p className="text-md italic">
-                {exp.role} — {exp.date}
-              </p>
+              <div className="italic flex justify-between">
+                {exp.role}
+                <span className="text-sm font-normal text-neutral-500 dark:text-neutral-400">
+                  {exp.date}
+                </span>
+              </div>
               <ul className="list-disc list-inside space-y-1">
                 {exp.description.map((point, idx) => (
                   <li

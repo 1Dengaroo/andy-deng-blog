@@ -8,6 +8,7 @@ export const experiences = [
       "Collaborating on the development of a professional social networking platform using React, Tailwind, Node, Firebase, and AWS",
       "Integrated search functionality using MeiliSearch for post discovery and implemented a recommendation system",
     ],
+    url: "https://www.linkedin.com/company/abstruse1/posts/?feedView=all",
   },
   {
     company: "Evera",
@@ -20,6 +21,7 @@ export const experiences = [
       "Ensured comprehensive testing of key features including payments, and order/product management",
       "Set up and managed custom domains and DNS to improve branding and organization",
     ],
+    url: "https://everafashion.com",
   },
   {
     company: "Vanta",
@@ -32,17 +34,7 @@ export const experiences = [
       "Implemented atomic transactions for payment processing, ensuring the secure completion of over 1,000 orders",
       "Collaborated with Ops and Cx teams to introduce several quality of life bug fixes and features",
     ],
-  },
-  {
-    company: "Evera",
-    location: "Remote",
-    role: "Software Engineer Intern",
-    date: "Jun 2023 – Aug 2023",
-    description: [
-      "Developed a visually appealing and responsive user interface for an e-commerce platform using React",
-      "Used Firebase to store and retrieve user, product, and order data",
-      "Implemented Stripe for payment processing",
-    ],
+    url: "https://vanta.gg",
   },
   {
     company: "Boston College",
@@ -56,6 +48,7 @@ export const experiences = [
       "Created a CI/CD pipeline with GitHub Actions with over 300 tests using Pytest",
       "Wrote end-to-end and unit test suites with Playwright and RSpec, achieving 90% test coverage",
     ],
+    url: "https://www.bc.edu",
   },
   {
     company: "Boston College",
@@ -65,5 +58,6 @@ export const experiences = [
     description: [
       "Aided students and faculty courteously and quickly to resolve varied technology issues, closing over 400 tickets",
     ],
+    url: "https://www.bc.edu",
   },
 ];
